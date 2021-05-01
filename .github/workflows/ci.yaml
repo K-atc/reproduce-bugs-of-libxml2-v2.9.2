@@ -1,0 +1,10 @@
+on: [push]
+
+name: Build and run demo
+
+jobs:
+  build:
+    name: Build and run demo
+    runs-on: ubuntu-latest
+    steps:
+      - run: make reproduce

@@ -6,6 +6,7 @@ How to build & run
 ----
 ```shell
 git submodule init
+git submodule update
 make reproduce
 ```
 
